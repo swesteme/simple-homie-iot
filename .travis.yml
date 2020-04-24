@@ -15,6 +15,7 @@ env:
 install:
     - pip install -U platformio
     - platformio update
+    - platformio lib -g install 555
 
 script:
     - platformio ci --board=d1_mini_pro
