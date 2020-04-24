@@ -1,4 +1,8 @@
 # Simple Homie IOT Esp8266 wrapper library
+[![Build Status](https://travis-ci.org/swesteme/simple-homie-iot.svg?branch=develop)](https://travis-ci.org/swesteme/simple-homie-iot)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/swesteme/simple-homie-iot/develop/LICENSE)
+__________
+
 This small library is just a distilled part of code from my use the great Homie IOT Esp8266 library by Marvin Roger and Ian Hubbertz.
 
 You may use it if you have ESPs switching things on and off with custom sensors like Infrared or Radio controls. 
