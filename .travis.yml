@@ -10,11 +10,7 @@ cache:
         - "~/.platformio"
 
 env:
-    - PLATFORMIO_CI_SRC=src/KillConfigNode.cpp
-    - PLATFORMIO_CI_SRC=src/Receiver.cpp
-    - PLATFORMIO_CI_SRC=src/RemoteButton.cpp
-    - PLATFORMIO_CI_SRC=src/Switch.cpp
-    - PLATFORMIO_CI_SRC=examples/main.cpp
+    - PLATFORMIO_CI_SRC=src
 
 install:
     - pip install -U platformio
