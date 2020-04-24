@@ -1,0 +1,36 @@
+{
+    "name": "Simple Homie IOT wrapper",
+    "version": "0.0.1",
+    "keywords": "iot, home, automation, mqtt, esp8266, async, sensor",
+    "description": "Simple wrapper around homie-iot esp library",
+    "homepage": "https://github.com/swesteme/simple-homie-iot/",
+    "license": "MIT",
+    "authors": {
+        "name": "Sebastian Westemeyer",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swesteme/simple-homie-iot.git",
+        "branch": "master"
+    },
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif8266",
+        "espressif32"
+    ],
+    "dependencies": [
+        {
+            "name": "Homie",
+            "version": "^3.0.0"
+        }
+    ],
+    "export": {
+        "include": [
+            "LICENSE",
+            "src/*",
+            "include/*",
+            "examples/*"
+        ]
+    }
+}
